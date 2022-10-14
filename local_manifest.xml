@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remote -->
+  <remote name="bilizoekdev"
+          fetch="https://github.com/bilizoekdev" />
+
+  <!-- Device Tree -->
+  <project path="kernel/xiaomi/ginkgo" name="kernel_xiaomi_ginkgo" remote="bilizoekdev" clone-depth="1" revision="A12L" />
+  <project path="device/xiaomi/ginkgo" name="device_xiaomi_ginkgo" remote="bilizoekdev" clone-depth="1" revision="A12L" />
+  <project path="vendor/xiaomi/ginkgo" name="vendor_xiaomi_ginkgo" remote="bilizoekdev" clone-depth="1" revision="A12L" />
+
+  <!-- Miui Camera -->
+  <project path="vendor/miuicamera" name="vendor_miuicamera" remote="bilizoekdev" clone-depth="1" revision="arrow-12.0-a3" />
+
+  <!-- Toolchain -->
+  <!-- project path="prebuilts/clang/host/linux-x86/clang-NFS" name="NFS-clang" remote="NFSclang" clone-depth="1"/ -->
+
+  <!-- Hardware Xiaomi -->
+  <remove-project name="android_hardware_xiaomi" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="banana" />
+
+</manifest>
