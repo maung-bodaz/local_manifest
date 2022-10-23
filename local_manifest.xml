@@ -2,15 +2,15 @@
 <manifest>
 
   <!-- Remote -->
-  <remote name="saitama-sense"
-          fetch="https://github.com/saitama-sense" />
+  <remote name="maung-bodaz"
+          fetch="https://github.com/maung-bodaz" />
 
   <!-- Device Tree -->
-  <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_whyred" remote="saitama-sense" clone-depth="1" revision="thirteen" />
-  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="saitama-sense" clone-depth="1" revision="10" />
-  <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="saitama-sense" clone-depth="1" revision="10" />
-  <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="saitama-sense" clone-depth="1" revision="10" />
-  <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="saitama-sense" clone-depth="1" revision="10" />
+  <project path="kernel/xiaomi/whyred" name="android_kernel_xiaomi_whyred" remote="maung-bodaz" clone-depth="1" revision="thirteen" />
+  <project path="device/xiaomi/whyred" name="android_device_xiaomi_whyred" remote="maung-bodaz" clone-depth="1" revision="10" />
+  <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="maung-bodaz" clone-depth="1" revision="10" />
+  <project path="vendor/xiaomi/whyred" name="android_vendor_xiaomi_whyred" remote="maung-bodaz" clone-depth="1" revision="10" />
+  <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="maung-bodaz" clone-depth="1" revision="10" />
 
   <!-- Miui Camera -->
   <!-- project path="vendor/miuicamera" name="vendor_miuicamera" remote="bilizoekdev" clone-depth="1" revision="arrow-12.0-a3" --/>
