@@ -17,8 +17,8 @@
   <!-- project path="prebuilts/clang/host/linux-x86/clang-NFS" name="NFS-clang" remote="NFSclang" clone-depth="1"/ -->
 
   <!-- Hardware Xiaomi -->
-  <remove-project name="android_hardware_xiaomi" />
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="banana" />
+  <!-- remove-project name="android_hardware_xiaomi" --/>
+  <!-- project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="banana" --/>
 
   <!-- frameworks -->
   <remove-project name="platform_frameworks_base" />
