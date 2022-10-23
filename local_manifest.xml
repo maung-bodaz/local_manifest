@@ -19,4 +19,7 @@
   <!-- Dirac -->
   <project path="vendor/dirac" name="vendor_dirac" remote="maung-bodaz" clone-depth="1" revision="10.x" />
 
+  <!-- Clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="maung-bodaz" clone-depth="1" revision="master" />
+
 </manifest>
