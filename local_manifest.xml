@@ -3,10 +3,10 @@
 
   <!-- Remote -->
   <remote name="maung-bodaz" fetch="https://github.com/maung-bodaz" />
-  <remote name="github" fetch="https://github.com/xiaomeme-whyred" />
+  <remote name="kernel" fetch="https://github.com/xiaomeme-whyred" />
 
   <!-- Kernel Tree -->
-  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="github" clone-depth="1" revision="10.x" />
+  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="kernel" clone-depth="1" revision="10.x" />
 
   <!-- Device Tree -->
   <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="maung-bodaz" clone-depth="1" revision="10.x" />
