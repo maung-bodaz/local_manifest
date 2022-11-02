@@ -22,4 +22,7 @@
   <!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="maung-bodaz" clone-depth="1" revision="master" />
 
+  <remove-project name="platform_vendor_aosp" />
+  <project path="vendor/aosp" name="platform_vendor_aosp" remote="maung-bodaz" clone-depth="1" revision="10.x" />
+
 </manifest>
