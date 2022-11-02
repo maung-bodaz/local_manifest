@@ -6,7 +6,7 @@
           fetch="https://github.com/maung-bodaz" />
 
   <!-- Kernel Tree -->
-  <project path="kernel/xiaomi/sdm660" name="kernel" remote="maung-bodaz" clone-depth="1" revision="caf" />
+  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660" remote="maung-bodaz" clone-depth="1" revision="extended-eas" />
 
   <!-- Device Tree -->
   <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="maung-bodaz" clone-depth="1" revision="10.x" />
